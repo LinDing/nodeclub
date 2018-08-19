@@ -11,7 +11,7 @@ var config = {
   get mini_assets() { return !this.debug; }, // 是否启用静态文件的合并压缩，详见视图中的Loader
 
   name: '现金管家', // 社区名字
-  description: '现金管家：口子交流社区', // 社区的描述
+  description: '现金管家：新口子交流社区', // 社区的描述
   keywords: '现金贷, 信用卡, 口子, 贷款, 借钱',
 
   // 添加到 html head 中的信息
@@ -57,7 +57,7 @@ var config = {
     title: '现金管家',
     link: 'http://cnodejs.org',
     language: 'zh-cn',
-    description: '现金管家：口子交流社区',
+    description: '现金管家：新口子交流社区',
     //最多获取的RSS Item数量
     max_rss_items: 50
   },
