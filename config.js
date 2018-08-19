@@ -6,7 +6,7 @@ var path = require('path');
 
 var config = {
   // debug 为 true 时，用于本地调试
-  debug: true,
+  debug: false,
 
   get mini_assets() { return !this.debug; }, // 是否启用静态文件的合并压缩，详见视图中的Loader
 
@@ -69,8 +69,8 @@ var config = {
     host: 'smtp.126.com',
     port: 25,
     auth: {
-      user: 'club@126.com',
-      pass: 'club'
+      user: 'kouzidai@126.com',
+      pass: 'dinglin1991'
     },
     ignoreTLS: true,
   },
