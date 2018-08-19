@@ -67,12 +67,12 @@ var config = {
   // 邮箱配置
   mail_opts: {
     host: 'smtp.126.com',
-    port: 25,
+    secure:true,
+    port: 465,
     auth: {
       user: 'kouzidai@126.com',
       pass: 'dinglin1991'
     },
-    ignoreTLS: true,
   },
 
   //weibo app key
@@ -80,7 +80,7 @@ var config = {
   weibo_id: 'your_weibo_id',
 
   // admin 可删除话题，编辑标签。把 user_login_name 换成你的登录名
-  admins: { user_login_name: true },
+  admins: { luyun: true },
 
   // github 登陆的配置
   GITHUB_OAUTH: {
